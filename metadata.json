@@ -1,0 +1,6 @@
+{
+  "name": "Bagas Mahesa Portfolio",
+  "description": "Multiskill portfolio website for Bagas Mahesa featuring experience, skills, and projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
