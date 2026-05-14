@@ -74,7 +74,7 @@ export const translations = {
       p2: "I focus on keeping the interface clean, user-friendly, and responsive. I mostly use modern tools like React, Tailwind CSS, and various modern javascript ecosystems. Below are some snapshots of previous web and landing page projects I've developed from scratch:",
       pj1: { t: "Cafe 163 Coffee", d: "A modern coffee shop landing page with an elegant, warm, and inviting aesthetic." },
       pj2: { t: "Sowon Home Made Cake", d: "A delightful landing page for a homemade cake and bakery business, showcasing their sweet catalog." },
-      pj3: { t: "Bentaala", d: "A clean and professional digital portfolio with dynamic layouts." }
+      pj3: { t: "Bentaala", d: "A UMKM website for selling fried snacks and lontong, with a simple design that is easy for everyone to understand." }
     },
     design: {
       title1: "Design",
@@ -173,7 +173,7 @@ export const translations = {
       p2: "Saya fokus menjaga antarmuka tetap bersih, ramah pengguna, dan responsif. Saya sebagian besar menggunakan alat modern seperti React, Tailwind CSS, dan berbagai ekosistem javascript modern lainnya. Berikut adalah beberapa jepretan dari proyek web dan landing page sebelumnya yang saya kembangkan dari awal:",
       pj1: { t: "Cafe 163 Coffee", d: "Landing page kedai kopi modern dengan estetika yang elegan, hangat, dan mengundang." },
       pj2: { t: "Sowon Home Made Cake", d: "Landing page yang menyenangkan untuk bisnis kue dan roti buatan rumah, memamerkan katalog manis mereka." },
-      pj3: { t: "Bentaala", d: "Portofolio digital yang bersih dan profesional dengan tata letak dinamis." }
+      pj3: { t: "Bentaala", d: "web UMKM untuk berjualan Gorengan dan lontong, dengan desain sederhana dan mudah di pahami banyak orang." }
     },
     design: {
       title1: "Proyek",
@@ -272,7 +272,7 @@ export const translations = {
       p2: "私はインターフェースをクリーンで、ユーザーフレンドリーで、レスポンシブに保つことに焦点を当てています。私は主にReact、Tailwind CSS、その他のさまざまな最新のJavaScriptエコシステムなどの最新のツールを使用しています。以下は、私がゼロから開発した以前のWebおよびランディングページプロジェクトのスナップショットです。",
       pj1: { t: "Cafe 163 Coffee", d: "エレガントで暖かく、魅力的な美学を備えたモダンなコーヒーショップのランディングページ。" },
       pj2: { t: "Sowon Home Made Cake", d: "手作りのケーキやベーカリービジネスのための楽しいランディングページで、甘いカタログを紹介しています。" },
-      pj3: { t: "Bentaala", d: "動的なレイアウトを備えたクリーンでプロフェッショナルなデジタルポートフォリオ。" }
+      pj3: { t: "Bentaala", d: "揚げ物やロントンを販売するための中小企業（UMKM）向けウェブサイトで、シンプルで誰にでも分かりやすいデザイン。" }
     },
     design: {
       title1: "デザイン",
