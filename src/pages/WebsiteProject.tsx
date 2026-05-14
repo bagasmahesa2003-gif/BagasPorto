@@ -48,7 +48,7 @@ export function WebsiteProject() {
                 title: t('website.pj2.t'),
                 url: "https://sowon-home-made-cake.vercel.app/",
                 description: t('website.pj2.d'),
-                image: "/sowonweb.png"
+                image: "/sowonwebnew.png"
               },
               {
                 title: t('website.pj3.t'),
