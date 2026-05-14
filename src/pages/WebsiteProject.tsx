@@ -17,7 +17,7 @@ export function WebsiteProject() {
     <>
       <Navbar />
       <main className="min-h-screen py-16 px-5 max-w-4xl mx-auto">
-        <Link to="/" className="inline-flex items-center text-muted hover:text-accent font-medium mb-10 transition-colors">
+        <Link to="/#projects" className="inline-flex items-center text-muted hover:text-accent font-medium mb-10 transition-colors">
           <ArrowLeft size={20} className="mr-2" />
           {t('projects.back')}
         </Link>

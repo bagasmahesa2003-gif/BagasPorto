@@ -68,9 +68,10 @@ export function Skills() {
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
+                whileHover={{ scale: 1.05, y: -2 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="px-5 py-2 bg-card rounded-full text-sm border border-[#444] text-white"
+                className="px-5 py-2 bg-card rounded-full text-sm border border-[#444] text-white hover:border-accent hover:text-accent transition-colors cursor-default shadow-sm hover:shadow-accent/20"
               >
                 {skill}
               </motion.span>
