@@ -55,6 +55,12 @@ export function WebsiteProject() {
                 url: "https://bentaalaaa.vercel.app/",
                 description: t('website.pj3.d'),
                 image: "/bentalaweb.png"
+              },
+              {
+                title: t('website.pj4.t'),
+                url: "https://frizaly-portofolio.vercel.app/",
+                description: t('website.pj4.d'),
+                image: "/portoaly.png"
               }
             ].map((project, i) => (
                <div key={i} className="flex flex-col md:flex-row gap-0 bg-card rounded-2xl overflow-hidden border border-[#333] hover:border-accent/50 transition-colors duration-300">
