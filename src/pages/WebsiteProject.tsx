@@ -42,25 +42,36 @@ export function WebsiteProject() {
                 title: t('website.pj1.t'),
                 url: "https://cafe163coffe.vercel.app/",
                 description: t('website.pj1.d'),
-                image: "/cafeweb.png"
+                image: "/cafeweb.png",
+                status: "onProgress"
               },
               {
                 title: t('website.pj2.t'),
                 url: "https://sowon-home-made-cake.vercel.app/",
                 description: t('website.pj2.d'),
-                image: "/sowonwebnew.png"
+                image: "/sowonwebnew.png",
+                status: "ready"
               },
               {
                 title: t('website.pj3.t'),
                 url: "https://bentaalaaa.vercel.app/",
                 description: t('website.pj3.d'),
-                image: "/bentalaweb.png"
+                image: "/bentalaweb.png",
+                status: "ready"
               },
               {
                 title: t('website.pj4.t'),
                 url: "https://frizaly-portofolio.vercel.app/",
                 description: t('website.pj4.d'),
-                image: "/portoaly.png"
+                image: "/portoaly.png",
+                status: "ready"
+              },
+              {
+                title: t('website.pj5.t'),
+                url: "https://warungsidomukti.vercel.app/",
+                description: t('website.pj5.d'),
+                image: "/sido.png",
+                status: "ready"
               }
             ].map((project, i) => (
                <div key={i} className="flex flex-col md:flex-row gap-0 bg-card rounded-2xl overflow-hidden border border-[#333] hover:border-accent/50 transition-colors duration-300">
@@ -87,10 +98,12 @@ export function WebsiteProject() {
                       
                       <div className="flex items-center gap-3">
                         <div className="relative flex h-3 w-3">
-                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                          <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.8)]"></span>
+                          <span className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${project.status === 'onProgress' ? 'bg-orange-400' : 'bg-green-400'}`}></span>
+                          <span className={`relative inline-flex rounded-full h-3 w-3 ${project.status === 'onProgress' ? 'bg-orange-500 shadow-[0_0_10px_rgba(249,115,22,0.8)]' : 'bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.8)]'}`}></span>
                         </div>
-                        <span className="text-sm font-bold text-green-500 uppercase tracking-widest">{t('projects.ready')}</span>
+                        <span className={`text-sm font-bold uppercase tracking-widest ${project.status === 'onProgress' ? 'text-orange-500' : 'text-green-500'}`}>
+                          {project.status === 'onProgress' ? t('projects.onProgress') : t('projects.ready')}
+                        </span>
                       </div>
                     </div>
                   </div>

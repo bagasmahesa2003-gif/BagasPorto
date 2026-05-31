@@ -54,7 +54,8 @@ export const translations = {
       p3: { t: "Soap Business", d: "Chemical formulation and branding for local hygiene products." },
       back: "Back to Home",
       visit: "Visit Website",
-      ready: "Ready"
+      ready: "Ready",
+      onProgress: "On Progress"
     },
     contact: {
       title1: "Contact",
@@ -75,7 +76,8 @@ export const translations = {
       pj1: { t: "Cafe 163 Coffee", d: "A modern coffee shop landing page with an elegant, warm, and inviting aesthetic." },
       pj2: { t: "Sowon Home Made Cake", d: "A delightful landing page for a homemade cake and bakery business, showcasing their sweet catalog." },
       pj3: { t: "Bentaala", d: "A UMKM website for selling fried snacks and lontong, with a simple design that is easy for everyone to understand." },
-      pj4: { t: "Frizaly Portfolio", d: "A personal portfolio website featuring a clean and modern design." }
+      pj4: { t: "Frizaly Portfolio", d: "A personal portfolio website featuring a clean and modern design." },
+      pj5: { t: "Warung Sidomukti", d: "A website for a local food stall business." }
     },
     design: {
       title1: "Design",
@@ -154,7 +156,8 @@ export const translations = {
       p3: { t: "Bisnis Sabun", d: "Formulasi bahan kimia dan branding untuk produk kebersihan lokal." },
       back: "Kembali ke Beranda",
       visit: "Kunjungi Website",
-      ready: "Siap"
+      ready: "Siap",
+      onProgress: "On Progress"
     },
     contact: {
       title1: "Hubungi",
@@ -175,7 +178,8 @@ export const translations = {
       pj1: { t: "Cafe 163 Coffee", d: "Landing page kedai kopi modern dengan estetika yang elegan, hangat, dan mengundang." },
       pj2: { t: "Sowon Home Made Cake", d: "Landing page yang menyenangkan untuk bisnis kue dan roti buatan rumah, memamerkan katalog manis mereka." },
       pj3: { t: "Bentaala", d: "web UMKM untuk berjualan Gorengan dan lontong, dengan desain sederhana dan mudah di pahami banyak orang." },
-      pj4: { t: "Frizaly Portfolio", d: "Sebuah situs web portofolio pribadi yang menampilkan desain bersih dan modern." }
+      pj4: { t: "Frizaly Portfolio", d: "Sebuah situs web portofolio pribadi yang menampilkan desain bersih dan modern." },
+      pj5: { t: "Warung Sidomukti", d: "Situs web untuk bisnis warung makan lokal." }
     },
     design: {
       title1: "Proyek",
@@ -254,7 +258,8 @@ export const translations = {
       p3: { t: "石鹸ビジネス", d: "地域の衛生製品のための化学的処方とブランディング。" },
       back: "ホームに戻る",
       visit: "ウェブサイトを見る",
-      ready: "準備完了"
+      ready: "準備完了",
+      onProgress: "進行中"
     },
     contact: {
       title1: "私に",
@@ -275,7 +280,8 @@ export const translations = {
       pj1: { t: "Cafe 163 Coffee", d: "エレガントで暖かく、魅力的な美学を備えたモダンなコーヒーショップのランディングページ。" },
       pj2: { t: "Sowon Home Made Cake", d: "手作りのケーキやベーカリービジネスのための楽しいランディングページで、甘いカタログを紹介しています。" },
       pj3: { t: "Bentaala", d: "揚げ物やロントンを販売するための中小企業（UMKM）向けウェブサイトで、シンプルで誰にでも分かりやすいデザイン。" },
-      pj4: { t: "Frizaly ポートフォリオ", d: "クリーンでモダンなデザインを特徴とする個人的なポートフォリオウェブサイト。" }
+      pj4: { t: "Frizaly ポートフォリオ", d: "クリーンでモダンなデザインを特徴とする個人的なポートフォリオウェブサイト。" },
+      pj5: { t: "Warung Sidomukti", d: "地元の屋台ビジネスのためのウェブサイト。" }
     },
     design: {
       title1: "デザイン",
