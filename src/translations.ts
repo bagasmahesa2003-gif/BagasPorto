@@ -22,7 +22,7 @@ export const translations = {
       title1: "My",
       title2: "Experience",
       jobs: {
-        j1: { t: "Current Job", r: "Admin & Student Affairs Staff", d: "Managing school documents, financial records, and student administration with high accuracy." },
+        j1: { t: "Education Administration", r: "Admin & Student Affairs Staff", d: "Managing school documents, financial records, and student administration with high accuracy." },
         j2: { t: "Industrial Internship", r: "Helper Operator", d: "Assisted in machine operation and learned the rigors of industrial workflows and safety protocols." },
         j3: { t: "Digital Skills", r: "Freelance Web & Design", d: "Developed functional websites and created visual assets using Adobe Photoshop." },
         j4: { t: "Entrepreneurship", r: "Soap & Detergent Business", d: "Handled production and direct sales, learning the basics of supply chain and entrepreneurship." },
@@ -124,7 +124,7 @@ export const translations = {
       title1: "Pengalaman",
       title2: "Saya",
       jobs: {
-        j1: { t: "Pekerjaan Saat Ini", r: "Staf Admin & Kesiswaan", d: "Mengelola dokumen sekolah, catatan keuangan, dan administrasi siswa dengan akurasi tinggi." },
+        j1: { t: "Administrasi Pendidikan", r: "Staf Admin & Kesiswaan", d: "Mengelola dokumen sekolah, catatan keuangan, dan administrasi siswa dengan akurasi tinggi." },
         j2: { t: "Magang Industri", r: "Operator Pembantu", d: "Membantu pengoperasian mesin dan mempelajari alur kerja industri serta protokol keamanan yang ketat." },
         j3: { t: "Keterampilan Digital", r: "Freelance Web & Desain", d: "Mengembangkan situs web fungsional dan membuat aset visual menggunakan Adobe Photoshop." },
         j4: { t: "Kewirausahaan", r: "Bisnis Sabun & Deterjen", d: "Menangani produksi dan penjualan langsung, mempelajari dasar-dasar rantai pasokan dan kewirausahaan." },
@@ -226,7 +226,7 @@ export const translations = {
       title1: "私の",
       title2: "経験",
       jobs: {
-        j1: { t: "現在の仕事", r: "管理・学生事務スタッフ", d: "学校の書類、財務記録、学生の管理を高い精度で行います。" },
+        j1: { t: "教育行政", r: "管理・学生事務スタッフ", d: "学校の書類、財務記録、学生の管理を高い精度で行います。" },
         j2: { t: "産業研修", r: "ヘルパーオペレーター", d: "機械の操作を支援し、厳しい産業のワークフローと安全プロトコルを学びました。" },
         j3: { t: "デジタルスキル", r: "フリーランスウェブ＆デザイン", d: "機能的なウェブサイトを開発し、Adobe Photoshopを使用して視覚的な資産を作成しました。" },
         j4: { t: "起業家精神", r: "石鹸・洗剤ビジネス", d: "生産と直接販売を担当し、サプライチェーンと起業家精神の基礎を学びました。" },
